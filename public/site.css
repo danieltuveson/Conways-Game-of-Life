@@ -1,0 +1,67 @@
+/*
+Colors:
+  flame: #E4572E
+  sunny: #F0F66E
+  honneydew: #F0F8EA
+  laurel green: #A8C686
+  turtle green: #9D9C62
+
+*/
+
+
+html, body {
+  background-color: #788aa5;
+  font-family: 'VT323', monospace;
+}
+
+.center {
+  text-align: center;
+}
+
+#menu {
+  width: 300px;
+  height: 300px;
+  background: darkgreen;
+  color: white;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#start {
+  font-size: 20px;
+}
+
+#game {
+  width: 500px;
+  height: 500px;
+}
+
+#title {
+  background-color: #F0F8EA;
+}
+
+.main-container {
+  margin-top: 10px;
+  padding: 100px 100px 100px 100px;
+  width: 1200px;
+  background-color: #A8C686;
+}
+
+
+/* Game styles */
+.pixel {
+  width: 10px;
+  height: 10px;
+}
+
+.alive {
+  border: 1px solid #F0F8EA;
+  background-color: black;
+}
+
+.dead {
+  background-color: #F0F8EA;
+}
